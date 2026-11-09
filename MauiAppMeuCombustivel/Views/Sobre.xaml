@@ -1,0 +1,41 @@
+
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiAppMeuCombustivel.Views.Sobre"
+    Title="Sobre">
+
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <Label
+            Text="Sobre o aplicativo"
+            FontSize="28"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="Aplicativo de Hospedagem"
+            FontSize="20"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="Desenvolvedor: Murilo"
+            FontSize="16"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="Ano de desenvolvimento: 2026"
+            FontSize="16"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="Aplicativo desenvolvido utilizando .NET MAUI e C#."
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
